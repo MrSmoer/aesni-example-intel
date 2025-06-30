@@ -1,6 +1,8 @@
 section .data
-    Key: dq 0xabf7158809cf4f3c, 0x2b7e151628aed2a6
-  ;#  Key: dq 0xa6d2ae2816157e2b, 0x3c4fcf098815f7ab ; the other endianness
+  ;  Key: dq 0xabf7158809cf4f3c, 0x2b7e151628aed2a6 ; key 3c4fcf098815f7aba6d2ae2816157e2b
+  ;#  Key: dq 0xa6d2ae2816157e2b, 0x3c4fcf098815f7ab ; key 2b7e151628aed2a6abf7158809cf4f3c (the other endianness)
+  Key: dq 0x0706050403020100, 0x0f0e0d0c0b0a0908 ; key 000102030405060708090a0b0c0d0e0f
+
     
     generated_keys: times 11 dq 0, 0
 
